@@ -602,7 +602,7 @@ saveBtn.addEventListener("click", function() {
     });
 });
 
-},{"@editorjs/editorjs":"4eyUD","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@editorjs/header":"kkSVA","@editorjs/list":"1ChUe","@editorjs/embed":"4qeqT"}],"4eyUD":[function(require,module,exports) {
+},{"@editorjs/editorjs":"4eyUD","@editorjs/header":"kkSVA","@editorjs/list":"1ChUe","@editorjs/embed":"4qeqT","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4eyUD":[function(require,module,exports) {
 /*! For license information please see editor.js.LICENSE.txt */ !function(e, t1) {
     module.exports = t1();
 }(window, function() {
@@ -17516,36 +17516,6 @@ saveBtn.addEventListener("click", function() {
     ]);
 });
 
-},{}],"gkKU3":[function(require,module,exports) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, "__esModule", {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
-
 },{}],"kkSVA":[function(require,module,exports) {
 !function(e, t) {
     module.exports = t();
@@ -19329,6 +19299,36 @@ exports.export = function(dest, destName, get) {
         }
     ]).default;
 });
+
+},{}],"gkKU3":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, "__esModule", {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
 
 },{}]},["8BXtR","bB7Pu"], "bB7Pu", "parcelRequire6e01")
 
