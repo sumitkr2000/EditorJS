@@ -1,4 +1,5 @@
 # EditorJS
 A practice project made during learning EditorJS.
 
-![Screenshot (641)](https://user-images.githubusercontent.com/100675296/221013436-b5e6c17a-f80b-4b11-b029-5288aa3621a0.png)
+![image](https://github.com/sumitkr2000/EditorJS/assets/100675296/0e9d4db5-8ac9-4ab3-a949-217e64249847)
+
